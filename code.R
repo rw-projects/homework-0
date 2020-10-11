@@ -1,0 +1,17 @@
+library(tidyverse)
+library(dslabs)
+data(murders)
+
+log(8,2)
+log2(8)
+library(dslabs)
+data("murders")
+x <- c("a", "a", "b", "b", "b", "c")
+table(x)
+x <- murders$region
+table(x)
+table(murders$region)
+library(dslabs)
+data(movielens)
+str(movielens)
+sort(murders$total)
